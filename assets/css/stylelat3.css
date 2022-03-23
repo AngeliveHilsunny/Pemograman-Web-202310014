@@ -1,0 +1,31 @@
+body {
+    font-family: "Calibri";
+}
+
+.table {
+    align-items: center;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: solid #eeeff1 0.3px;
+    padding: 4px;
+    padding-right: 3rem;
+}
+
+table {
+    border-radius: 10px;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+
+th {
+    padding: 5px;
+    background-color: #edeff5;
+}
+
+tr:nth-child(odd) {
+    background-color: #d6dfe9;
+}

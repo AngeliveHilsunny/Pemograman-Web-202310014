@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;1,400&display=swap');
+* {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: poppins;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #ffffff;
+    color: rgb(52, 50, 75);
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    padding: 0 8%;
+}
+
+.photo {
+    margin: auto auto;
+    flex-direction: column;
+    display: flex;
+}
+
+.boxContainer {
+    display: flex;
+    flex-direction: crow;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-top: 4rem;
+    font-size: 30px;
+    margin-left: 14rem;
+}
+
+.photo p {
+    margin-bottom: 3rem;
+    margin-left: 14rem;
+    color: rgb(119, 122, 134);
+}
+
+.subtitle {
+    text-align: center;
+    background-color: rgb(37, 38, 43);
+    padding: 1px;
+    box-shadow: 10px 15px 10px rgba(51, 73, 51, 0.089);
+    height: 45px;
+    width: 300px;
+    border-top-left-radius: 50px;
+}
+
+.subtitle2 {
+    text-align: center;
+    background-color: rgb(49, 56, 47);
+    padding: 1px;
+    box-shadow: 10px 15px 10px rgba(70, 78, 70, 0.089);
+    height: 45px;
+    width: 300px;
+}
+
+.subtitle3 {
+    text-align: center;
+    background-color: rgb(39, 56, 75);
+    padding: 1px;
+    box-shadow: 10px 15px 10px rgba(70, 78, 70, 0.089);
+    height: 45px;
+    width: 300px;
+    border-top-right-radius: 50px;
+}
+
+h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.box {
+    width: 22%;
+    height: 250px;
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.image img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    padding-bottom: 0.5rem;
+    box-shadow: 10px 15px 10px rgba(70, 78, 70, 0.055);
+}
+
+.link {
+    display: flex;
+    flex-direction: crow;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+iframe {
+    border-radius: 30px;
+    box-shadow: 10px 15px 10px rgba(190, 186, 184, 0.034);
+}
+
+.Language1 {
+    margin-top: 7rem;
+}
+
+.Language2 {
+    margin-top: -10rem;
+}
