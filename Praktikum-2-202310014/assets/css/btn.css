@@ -1,0 +1,63 @@
+.btn-grad {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btnRegister::before,
+.btnRegister::after {
+    transition-delay: 0.2s;
+}
+
+.btnRegister span::before,
+.btnRegister span::after {
+    transition-delay: 0s;
+}
+
+.btnRegister::before {
+    right: 0;
+    top: 0;
+}
+
+.btnRegister::after {
+    left: 0;
+    bottom: 0;
+}
+
+.btnRegister span::before {
+    left: 0;
+    top: 0;
+}
+
+.btnRegister span::after {
+    right: 0;
+    bottom: 0;
+}
+
+.btnRegister:hover::before,
+.btnRegister:hover::after {
+    transition-delay: 0s;
+}
+
+.btnRegister:hover span::before,
+.btnRegister:hover span::after {
+    transition-delay: 0.2s;
+}

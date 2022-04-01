@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login+Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <input type="checkbox" id="toggle">
+    <div class="box1">
+        <div class="container">
+            <img src="/assets/media/buildings(2).jpg" alt="image">
+            <div class="login">
+                <div class="formSheet">
+                    <form>
+                        <div class="heading">
+                            <h1>Welcome to <span>Elearning</span></h1>
+                            <p>We make it easy for everyone to learn.</p>
+                        </div>
+                        <div class="content">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <p>Forgot password?</p>
+                        </div>
+                        <div class="buttonGroup">
+                            <button type="submit" class="btnPrimary">Login</button>
+                            <!--<button type="submit" onclick="window.location.replace('register.html')">Register</button>-->
+                            <button type="reset" class="btnRegister">Clear</button>
+                        </div>
+                        <div class="back">
+                            <small>Don't have an account?<label for="toggle"> Register</label></small>
+                        </div>
+                        <div class="header-bottom">
+                            <p>Or login with</p>
+                            <ul class="social-media" id="contact">
+                                <li><a href="">Google</a></li>
+                                <li><a href="">Instagram</a></li>
+                                <li><a href="">Facebook</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="container">
+            <img src="/assets/media/buildings3.jpg" alt="image">
+            <div class="register">
+                <div class="formSheet">
+                    <form>
+                        <div class="heading">
+                            <h1><span>Register</span> for an Account</h1>
+                            <p>Register to join us</p>
+                        </div>
+                        <div class="content">
+                            <input type="text" placeholder="NPM">
+                            <input type="password" placeholder="Password">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Place Birth">
+                            <input type="date" placeholder="Birthdate">
+                            <textarea name="address" id="" cols="40" rows="4" placeholder="Address"></textarea>
+                            <div class="Gender">
+                                <p>Pick your gender</p>
+                                <label>
+                                <input type="radio" id="GenderP" name="gender" value="P">
+                                <p for="GenderP">P</p>
+                            </label>
+                                <label>
+                                <input type="radio" id="GenderL" name="gender" Value="L">
+                                <p for="GenderL">L</p>
+                            </label>
+                            </div>
+                        </div>
+                        <div class="buttonGroup">
+                            <button type="button" class="btnPrimary">Register</button>
+                            <button type="reset" class="btnRegister">Clear</button>
+                        </div>
+                        <div class="back">
+                            <small>Have an account?<label for="toggle"> Login</label></small>
+                        </div>
+                        <div class="header-bottom">
+                            <p>Or use with</p>
+                            <ul class="social-media" id="contact">
+                                <li><a href="">Google</a></li>
+                                <li><a href="">Instagram</a></li>
+                                <li><a href="">Facebook</a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
